@@ -1,0 +1,132 @@
+$mainBack: linear-gradient(90deg, RGB(130, 130, 220) 0%, RGB(160,160,250) 50%, RGB(200,200,255) 100%);
+$borderInfo: RGB(0,0,0) 1px outset;
+$shadowInfo: 5px 2px 3px RGB(0,0,0);
+
+.top-bar {
+    background: $mainBack;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    border-bottom: $borderInfo;
+
+}
+
+.icon {
+    display: none;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 25px 15px;
+    &:hover {
+        background-color: RGB(140, 140, 230);
+        color: white;
+    }
+}
+
+
+.logo {
+    justify-self: flex-start;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    margin-top: 15px;
+    flex-basis: 150px;
+}
+
+.menus > * {
+    display: flex;
+    float:left;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+    margin-top: -20px;
+    padding: 30px;
+}
+
+.menu-link {
+    text-decoration: none;
+    display: block;
+    padding: 0px 30px;
+    color: black;
+    &:hover {
+        color: white;
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.nav-item .nav-link {
+    padding: 0px 20px;
+    font-size: 26px;
+    font-weight: 1000;
+    &:hover {
+        color: white;
+    }
+}
+
+.sub-menu {
+    display: flex;
+    background: $mainBack;
+    align-content: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 2;
+    top: 80px;
+    border-top: $borderInfo;
+    box-shadow: $shadowInfo;
+}
+
+
+.borger-menu {
+    display: flex;
+    flex-direction: column;
+    background: $mainBack;
+    width: 100%;
+    position:fixed;
+    z-index: 3;
+    top: 80px;
+    border-top: $borderInfo;
+    box-shadow: $shadowInfo;
+}
+
+.sub-menu-text {
+    padding: 0px 20px;
+}
+
+.borger-menu-text {
+    padding: 0px 20px;
+    border-top: $borderInfo;
+}
+
+@media all and (max-width: 840px) {
+    .menus {
+        display: none;
+    }
+
+    .sub-menu {
+        display: none;
+    }
+
+    #burger-icon {
+        display: block;
+    }
+
+}
+
+.hidden {
+    display: none;
+}
