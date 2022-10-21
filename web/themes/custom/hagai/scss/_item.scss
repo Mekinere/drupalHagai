@@ -7,22 +7,27 @@
 
         margin: auto;
         .field--name-field-item {
+            font-size: 26px;
   
 
-            margin: auto;
 
         }
         .field--name-field-price {
    
-            margin: auto;
-
+            font-size: 22px;
         }
         .img-fluid {
             margin: auto;
         }
-        .field--name-body {
-            margin: auto;
-
+        .field--name-field-flavor-text {
+            font-size: 18px;
+            font-style: italic;
+        }
+        .paragraph--type--item-description {
+            height: 150px;
+        }
+        .paragraph--type--item-description > div {
+            height: 26px;
         }
     }
 }

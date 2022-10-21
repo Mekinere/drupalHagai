@@ -3,8 +3,7 @@ global-styling:
     theme:
       css/style.css: {}
   js:
-    js/gallery.js: {}
-    js/navbar.js: {}
+    js/hagai.js: {}
   dependencies:
     - core/drupal
     - core/jquery

@@ -13548,16 +13548,23 @@ body h3, body .h3 {
   margin: auto;
 }
 .node--type-item .node__content .field--name-field-item {
-  margin: auto;
+  font-size: 26px;
 }
 .node--type-item .node__content .field--name-field-price {
-  margin: auto;
+  font-size: 22px;
 }
 .node--type-item .node__content .img-fluid {
   margin: auto;
 }
-.node--type-item .node__content .field--name-body {
-  margin: auto;
+.node--type-item .node__content .field--name-field-flavor-text {
+  font-size: 18px;
+  font-style: italic;
+}
+.node--type-item .node__content .paragraph--type--item-description {
+  height: 150px;
+}
+.node--type-item .node__content .paragraph--type--item-description > div {
+  height: 26px;
 }
 
 .view-content {
