@@ -13349,6 +13349,23 @@ body h3, body .h3 {
   border-top: RGB(0, 0, 0) 1px outset;
 }
 
+.block-basic-cart-countblock {
+  position: fixed;
+  z-index: 2;
+  top: 10px;
+  right: 20px;
+  width: 10%;
+}
+
+.block-basic-cart-cartblock {
+  padding-top: 10px;
+  position: fixed;
+  z-index: 2;
+  top: 80px;
+  right: 0px;
+  width: 15%;
+}
+
 @media all and (max-width: 840px) {
   .menus {
     display: none;
@@ -13591,7 +13608,7 @@ body h3, body .h3 {
   height: 256px;
   max-width: 256px;
 }
-.item-teaser .field--name-field-price {
+.item-teaser .field--name-add-to-cart-price {
   display: none;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgb(195, 223, 211)), color-stop(130%, rgb(200, 200, 255)));
   background: linear-gradient(90deg, rgb(195, 223, 211) 50%, rgb(200, 200, 255) 130%);

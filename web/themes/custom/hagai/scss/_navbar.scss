@@ -39,6 +39,8 @@ $shadowInfo: 5px 2px 3px RGB(0,0,0);
     flex-basis: 150px;
 }
 
+
+
 .menus > * {
     display: flex;
     float:left;
@@ -48,6 +50,7 @@ $shadowInfo: 5px 2px 3px RGB(0,0,0);
     flex-wrap: nowrap;
     margin-top: -20px;
     padding: 30px;
+    // width: 100%;
 }
 
 .menu-link {
@@ -110,6 +113,24 @@ $shadowInfo: 5px 2px 3px RGB(0,0,0);
 .borger-menu-text {
     padding: 0px 20px;
     border-top: $borderInfo;
+}
+
+
+.block-basic-cart-countblock {
+    position: fixed;
+    z-index: 2;
+    top: 10px;
+    right: 20px;
+    width: 10%;
+}
+
+.block-basic-cart-cartblock  {
+    padding-top: 10px;
+    position: fixed;
+    z-index: 2;
+    top: 80px;
+    right: 0px;
+    width: 15%;
 }
 
 @media all and (max-width: 840px) {

@@ -59,7 +59,7 @@ jQuery(document).ready(function($){
 
 
     $teaser.hover(function(){
-        $(this).find(".field--name-field-price").animate({width: 'toggle'},150);
+        $(this).find(".field--name-add-to-cart-price").animate({width: 'toggle'},150);
         $(this).find(".field--name-title").animate({width: 'toggle'}, 150);
     });
 
